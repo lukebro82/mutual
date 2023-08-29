@@ -1,3 +1,44 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+.nav__link {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #3d4c7c;
+}
+
+.header__logo {
+  width: 106px;
+  height: 106px;
+}
+
+.main__container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.main__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main__text {
+  font-size: 18px;
+  text-align: justify;
 }
