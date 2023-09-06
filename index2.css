@@ -103,6 +103,11 @@ li {
   line-height: 1.5;
 }
 
+.icons {
+  height: 30px;
+  width: 30px;
+}
+
 footer {
   background-color: rgba(227, 226, 226, 0.495);
 }

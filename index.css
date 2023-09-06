@@ -80,6 +80,18 @@ body {
   font-weight: 500;
 }
 
+.icon__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+}
+
 .footer {
   padding-top: 10px;
 
