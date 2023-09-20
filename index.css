@@ -45,13 +45,15 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
-  background-color: #4A72B0;
+  background-color: #4a72b0;
   color: white;
 }
 
-.slider2 {}
+.slider2 {
+}
 
-.slider4 {}
+.slider4 {
+}
 
 .main__title {
   font-family: "Montserrat", sans-serif;
@@ -101,7 +103,6 @@ body {
   width: 38px;
 }
 
-
 .footer {
   padding-top: 10px;
   display: flex;
@@ -124,13 +125,12 @@ body {
 
 .wp {
   border-radius: 6px 6px 6px 6px;
-  bottom: 50px;
-  right: 50px;
+  bottom: 25px;
+  right: 20px;
   margin-left: 10px;
   padding: 10px 0 0;
   position: fixed;
   text-align: center;
   width: 90px;
   z-index: 15;
-
 }
