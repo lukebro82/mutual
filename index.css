@@ -101,6 +101,7 @@ body {
   width: 38px;
 }
 
+
 .footer {
   padding-top: 10px;
   display: flex;
@@ -119,4 +120,17 @@ body {
   font-size: 18px;
   margin-bottom: 4px;
   font-weight: 300;
+}
+
+.wp {
+  border-radius: 6px 6px 6px 6px;
+  bottom: 50px;
+  right: 50px;
+  margin-left: 10px;
+  padding: 10px 0 0;
+  position: fixed;
+  text-align: center;
+  width: 90px;
+  z-index: 15;
+
 }
