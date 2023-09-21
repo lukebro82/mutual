@@ -28,6 +28,35 @@ body {
   width: 42px;
 }
 
+.header_burgermenu-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  top: 40px;
+  right: 0px;
+  z-index: 1;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: none;
+
+  -webkit-box-shadow: -9px 10px 48px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 10px 48px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: -9px 10px 48px -7px rgba(0, 0, 0, 0.75);
+}
+
+.buger-link {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4a72b0;
+}
+
 .main {
   padding: 20px 10px;
   display: grid;
@@ -47,12 +76,6 @@ body {
   width: 100%;
   background-color: #4a72b0;
   color: white;
-}
-
-.slider2 {
-}
-
-.slider4 {
 }
 
 .main__title {

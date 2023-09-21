@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
   </head>
   <body>
     <header class="header">
@@ -31,6 +32,12 @@
         src="./Images/Hamburger_icon.svg.png"
         alt=""
       />
+      <div class="header_burgermenu-div">
+        <a class="buger-link" href="#nosotros">Nosotros</a>
+        <a class="buger-link" href="#servicios">Servicios</a>
+        <a class="buger-link" href="#contacto">Contacto</a>
+        <a class="buger-link" href="#sedes">Sedes</a>
+      </div>
     </header>
     <section class="main">
       <div class="main-slider">
@@ -44,7 +51,7 @@
         </p>
       </div>
 
-      <div class="main-slider slider2">
+      <div class="main-slider slider2" id="nosotros">
         <h1 class="main__title">Nosotros</h1>
         <p class="main__text">
           Fundada en 1990, ha demostrado un firme compromiso con sus afiliados a
@@ -54,7 +61,7 @@
         </p>
       </div>
 
-      <div class="main-slider">
+      <div class="main-slider" id="servicios">
         <h1 class="main__title">Servicios</h1>
         <div>
           <h2 class="main__title2">PRESTAMOS PERSONALES</h2>
@@ -74,7 +81,7 @@
         </div>
       </div>
 
-      <div class="main-slider slider4">
+      <div class="main-slider slider4" id="contacto">
         <h1 class="main__title">Contacto</h1>
         <div class="contacts__grid">
           <img class="icons" src="./Images/mail.png" alt="" /><a
@@ -118,7 +125,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="map-container">
+      <div class="map-container" id="sedes">
         <h2 class="map__title">SEDE CENTRAL</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d976.3653920083352!2d-58.387815808589444!3d-34.60192020843477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac6d8addfd5%3A0xa293a4751264d65e!2sMutual%2030%20De%20Octubre!5e0!3m2!1ses!2sar!4v1693407552201!5m2!1ses!2sar"
