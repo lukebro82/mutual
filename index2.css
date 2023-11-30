@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
-
 header {
   background-color: white;
   display: flex;
@@ -28,26 +19,6 @@ header {
 
 .nav__link:hover {
   color: rgba(14, 14, 174, 0.896);
-}
-
-.header__logo {
-  width: 106px;
-  height: 106px;
-}
-
-.main__container {
-  max-width: 650px;
-  margin: 0 auto;
-}
-
-.main__title {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.main__text {
-  font-size: 18px;
-  text-align: justify;
 }
 
 #main-slider {
@@ -89,52 +60,12 @@ li {
   background: #fff;
 }
 
-#main-slider > ul.slider li:first-child {
+.header > .nav__link:first-child {
   opacity: 1;
   /*Mostramos el primer <li>*/
 }
 
-#main-slider > ul.slider li:target {
+.header > .nav__link:first-child .nav__link:target {
   opacity: 1;
   /*Mostramos el <li> del enlace que pulsemos*/
-}
-
-.main__text {
-  line-height: 1.5;
-}
-
-.icons {
-  height: 30px;
-  width: 30px;
-}
-
-footer {
-  background-color: rgba(227, 226, 226, 0.495);
-}
-
-.maps {
-  max-width: 960px;
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  padding: 15px 0;
-}
-
-.map__title {
-  margin: 0;
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 4px;
-}
-
-.wp {
-  border-radius: 6px 6px 6px 6px;
-  bottom: 50px;
-  right: 50px;
-  margin-left: 10px;
-  padding: 10px 0 0;
-  position: fixed;
-  text-align: center;
-  width: 90px;
-  z-index: 15;
 }
