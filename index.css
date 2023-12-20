@@ -17,8 +17,10 @@ body {
 @media (min-width: 500px) {
   .header {
     height: 12vh;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
+    padding: 10px;
+    gap: 15px;
   }
 }
 
@@ -35,7 +37,7 @@ body {
   .nav__link {
     display: inherit;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
     color: #4a72b0;
   }
@@ -135,7 +137,7 @@ body {
   margin: 0;
 }
 
-@media (min-width:460px){
+@media (min-width: 460px) {
   .main__title {
     font-weight: 800;
     font-size: 46px;
@@ -153,18 +155,19 @@ body {
   text-align: center;
   margin: 0;
 }
-@media (min-width:460px){
+@media (min-width: 460px) {
   .main__text {
     font-size: 28px;
     text-align: center;
   }
 }
 
-@media (min-width:460px){
+@media (min-width: 460px) {
   .desktop {
     font-size: 20px;
     text-align: center;
-}}
+  }
+}
 
 .main__h3 {
   margin: 0;
@@ -182,11 +185,11 @@ body {
   margin-top: 15px;
 }
 
-@media (min-width:460px){
-  .contacs__sede{
-  width:340px;
-  margin: 0 auto;
-}
+@media (min-width: 460px) {
+  .contacs__sede {
+    width: 340px;
+    margin: 0 auto;
+  }
 }
 .contacts__grid {
   display: grid;
@@ -194,9 +197,9 @@ body {
   align-items: center;
   margin-bottom: 15px;
 }
-@media (min-width:460px){
-    .contacts__grid{
-    width:340px;
+@media (min-width: 460px) {
+  .contacts__grid {
+    width: 340px;
     margin: 0 auto 15px;
   }
 }
