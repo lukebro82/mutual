@@ -8,7 +8,6 @@ body {
 }
 
 .header {
-  padding: 10px 20px 5px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,10 +16,19 @@ body {
 @media (min-width: 500px) {
   .header {
     height: 12vh;
-    max-width: 700px;
-    margin: auto;
-    padding: 10px;
-    gap: 15px;
+  }
+}
+
+@media (min-width: 500px) {
+  .div-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
   }
 }
 
@@ -31,6 +39,7 @@ body {
 
 @media (min-width: 500px) {
   .header__logo {
+    margin: 0 auto;
     margin-top: 6px;
   }
 }
@@ -46,6 +55,7 @@ body {
     font-size: 24px;
     font-weight: 800;
     color: #4a72b0;
+    margin: 0 auto;
   }
 }
 
@@ -120,18 +130,18 @@ body {
     height: 100%;
   }
   .slider1 {
-    width: 750px;
+    width: 800px;
   }
   .slider2 {
     display: none;
-    width: 750px;
+    width: 800px;
   }
   .slider3 {
     display: none;
-    width: 750px;
+    width: 800px;
   }
   .slider4 {
-    width: 750px;
+    width: 800px;
     display: none;
   }
 }
