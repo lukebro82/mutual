@@ -227,8 +227,8 @@ body {
 @media (min-width: 460px) {
   .footer {
     height: 28vh;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -239,6 +239,7 @@ body {
 @media (min-width: 460px) {
   .map-container {
     padding: 0;
+    margin: 0 auto;
   }
 }
 
@@ -270,12 +271,29 @@ body {
     display: block;
     width: 350px;
     font-size: 20px;
-    opacity: 40%;
+    opacity: 30%;
   }
 }
 
 @media (min-width: 460px) {
   .wp {
     display: none;
+  }
+}
+
+@media (min-width: 460px) {
+  .div-footer-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 460px) {
+  .div-footer-contact {
+    display: flex;
+    margin: 0 auto;
   }
 }
