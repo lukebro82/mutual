@@ -29,6 +29,12 @@ body {
   height: 115px;
 }
 
+@media (min-width: 500px) {
+  .header__logo {
+    margin-top: 6px;
+  }
+}
+
 .nav__link {
   display: none;
 }
@@ -114,18 +120,18 @@ body {
     height: 100%;
   }
   .slider1 {
-    width: 660px;
+    width: 750px;
   }
   .slider2 {
     display: none;
-    width: 660px;
+    width: 750px;
   }
   .slider3 {
     display: none;
-    width: 660px;
+    width: 750px;
   }
   .slider4 {
-    width: 660px;
+    width: 750px;
     display: none;
   }
 }
@@ -222,7 +228,7 @@ body {
   .footer {
     height: 28vh;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }
 
@@ -253,6 +259,19 @@ body {
   text-align: center;
   width: 90px;
   z-index: 15;
+}
+
+.div-footer-water {
+  display: none;
+}
+
+@media (min-width: 460px) {
+  .div-footer-water {
+    display: block;
+    width: 350px;
+    font-size: 20px;
+    opacity: 40%;
+  }
 }
 
 @media (min-width: 460px) {
