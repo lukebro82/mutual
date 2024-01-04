@@ -11,10 +11,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
 }
 
 @media (min-width: 500px) {
   .header {
+    padding: 0;
     height: 12vh;
   }
 }
@@ -270,6 +272,15 @@ body {
   text-align: center;
   width: 90px;
   z-index: 15;
+}
+
+.wp-contact {
+  display: none;
+}
+@media (min-width: 460px) {
+  .wp-contact {
+    display: inherit;
+  }
 }
 
 .div-footer-water {
